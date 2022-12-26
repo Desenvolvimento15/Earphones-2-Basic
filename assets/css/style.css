@@ -17,22 +17,26 @@
 .f-light {font-family: CamphorProForXiaoMi-Light, sans-serif}
 .f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
 
-.title-white{font-size: 2rem; font-weight: bold; color: var(--title-white); text-align: center;}
-.title-white-02{font-size: 1rem; font-weight: bold; color: var(--title-white); text-align: left;}
-.title-white-03{font-size: 1.3rem; font-weight: bold; color: var(--title-white); text-align: left; padding-bottom: 0.5rem;}
 .title-black{font-size: 2rem; font-weight: bold; color: var(--title-black); text-align: center; padding-bottom: 0.5rem;}
+.title-black-padrao{font-size: 1.3rem; font-weight: bold; color: var(--title-black); text-align: center; padding-bottom: 0.5rem;}
+
+.title-white-padrao{font-size: 1.2rem; font-weight: bold; color: var(--title-white); text-align: center; padding-bottom: 0.5rem;}
 .title-white-footer{font-size: 1rem; font-weight: bold; color: var(--title-white); text-align: left;  padding-bottom: 0.5rem;}
 
-.p-white-03{font-size: 0.9rem; color: var(--title-white); text-align: left; padding-bottom: 0.5rem; line-height: 1.5;}
-.p-white-02{font-size: 0.74rem; color: var(--title-white); text-align: left;}
-.p-white{font-size: 1.3rem; color: var(--title-white); text-align: center;}
-.p-white-footer{font-size: 1rem; color: var(--title-white); text-align: justify; padding-bottom: 0.5rem;}
-.p-black{font-size: 0.8rem; color: var(--paragraph);}
+.p-black-sub{font-size: 1.2rem; color: var(--title-black); text-align: center; padding-bottom: 0.5rem; line-height: 1.5;}
+.p-black-info{font-size: 0.8rem; color: var(--title-black); text-align: center; padding-bottom: 0.5rem; line-height: 1.5;}
+.p-black-footer{font-size: 0.8rem; color: var(--title-black); text-align: left; padding-bottom: 0.5rem; line-height: 1.5;}
+.p-black-bottom{font-size: 0.65rem; color: var(--title-black); text-align: justify;}
+.p-white{font-size: 0.9rem; color: var(--title-white); text-align: center;}
+.p-white-bottom{font-size: 0.65rem; color: var(--title-white); text-align: justify;}
+.p-white-bottom-09{font-size: 0.5rem; color: var(--title-white); text-align: center;}
 
+.p-black{font-size: 0.7rem; color: var(--title-black); text-align: center;}
 
 @media screen and (min-width:770px) {
     .root-buds-two{
         display: none;
+    
     }
 }
 
@@ -69,14 +73,50 @@
     align-items: center;
     }
 
+    .grid-content-bottom{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 1rem;
+    margin-top:18rem;
+    line-height: 1.3;
+    }
+    .grid-content-bottom-04{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 1rem;
+        margin-top:44rem;
+        line-height: 1.3;
+    }
+
+    .grid-content-bottom-09{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 1rem;
+    margin-top:26rem;
+    line-height: 1.3;
+    }
+
     .grid-content{
     display: flex;
     flex-direction: column;
     max-width: 100%;
     margin: 1rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     line-height: 1.3;
     }
+
+    .grid-content-04{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 1rem;
+    margin-top: 5rem;
+    line-height: 1.3;
+    }
+        
     
     .grid-box{
     border-bottom: 0.1rem solid #fff;
@@ -102,7 +142,7 @@
     }
 
     .base02{
-    height: 32rem;
+    height: 42rem;
     background: url(../media/Mi-true-wireless-earphones-2-basic_02.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -172,7 +212,7 @@
     }
 
     .base09{
-    height: 79rem;
+    height: 45rem;
     background-image: url(../media/Mi-true-wireless-earphones-2-basic_09.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -181,9 +221,19 @@
     flex-direction: column;
     }
 
+    .base10{
+    height: 21rem;
+    background-image: url(../media/Mi-true-wireless-earphones-2-basic_10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    }
+    
     .base11{
     height: 53rem;
-    background-image: url(../media/Mi-true-wireless-earphones-2-basic_10.jpg);
+    background-image: url(../media/Mi-true-wireless-earphones-2-basic_11.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -192,15 +242,10 @@
     }
      
     .footer-buds2{
-    background-color: var(--background-black);
+    background-color: var(--background-white);
     padding: 1rem;
     text-align: justify;
     text-justify: inter-word;
     }
- 
-    .galeria{
-    margin: 1rem;
-    }
-
     
 }
